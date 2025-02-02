@@ -1,0 +1,129 @@
+# =========================
+# Archivos y carpetas del sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Archivos y carpetas de editores y IDEs
+# =========================
+
+# VSCode
+.vscode/
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+*.iml
+.idea/
+*.iws
+*.ipr
+out/
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+.netrwhist
+*.tmp
+*.bak
+tags
+
+# =========================
+# Archivos y carpetas del Backend (Java, Spring Boot, Maven)
+# =========================
+
+# Archivos compilados y generados
+/backend/target/
+/backend/*.class
+/backend/*.jar
+/backend/*.war
+/backend/*.ear
+
+# Archivos generados por Maven
+/backend/.mvn/
+/backend/pom.xml.tag
+/backend/pom.xml.releaseBackup
+/backend/pom.xml.versionsBackup
+/backend/pom.xml.next
+/backend/release.properties
+
+# Archivos de logs
+/backend/*.log
+/backend/logs/
+
+# =========================
+# Archivos y carpetas del Frontend (React con Vite y Tailwind)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+/frontend/.cache/
+
+# =========================
+# Archivos de Docker y variables de entorno
+# =========================
+.env
+docker-compose.override.yml
+
+# =========================
+# Otros archivos temporales
+# =========================
+tmp/
+temp/
+# =========================
+# Archivos y carpetas de sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Archivos y carpetas del Backend (Java, Spring Boot, Maven)
+# =========================
+
+# Archivos compilados
+/backend/target/
+/backend/*.class
+/backend/*.jar
+/backend/*.war
+/backend/*.ear
+
+# Archivos generados por Maven
+/backend/.mvn/
+/backend/pom.xml.tag
+/backend/pom.xml.releaseBackup
+/backend/pom.xml.versionsBackup
+/backend/pom.xml.next
+/backend/release.properties
+
+# Archivos y carpetas de IDE (IntelliJ, Eclipse, VSCode, etc.)
+/backend/*.iml
+/backend/.idea/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+backend/out/
+
+# Archivos de logs
+/backend/*.log
+/backend/logs/
+
+# =========================
+# Archivos y carpetas del Frontend (React con Vite y Tailwind)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+/frontend/.cache/
+
+# =========================
+# Archivos de Docker
+# Si usas un archivo .env para definir variables de entorno, es recomendable no versionarlo
+.env
+docker-compose.override.yml
+
+# =========================
+# Otros archivos temporales
+# =========================
+tmp/
+temp/
